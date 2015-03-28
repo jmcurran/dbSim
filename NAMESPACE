@@ -1,3 +1,5 @@
 useDynLib(dbSim)
-exportPattern("^[[:alpha:]]+")
+
+export(readDB)
+
 importFrom(Rcpp, evalCpp)
