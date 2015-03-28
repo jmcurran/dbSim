@@ -1,0 +1,3 @@
+useDynLib(dbSim)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)

@@ -1,0 +1,13 @@
+Package: dbSim
+Type: Package
+Title: Simulates forensic DNA databases
+Version: 1.0
+Date: 2015-03-28
+Author: James Curran
+Maintainer: James Curran <j.curran@auckland.ac.nz>
+Description: Simulates DNA databases from a set of provided allele frequencies. The simulated database can then be bred so as to induce population substructure.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp
+URL: http://github.com/jmcurran/dbSim
+BugReports: http://github.com/jmcurran/dbSim/issues
